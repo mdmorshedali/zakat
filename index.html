@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>যাকাত ক্যালকুলেটর ২০২৬ | GoldR অফিসিয়াল প্রাইস</title>
-    <meta name="description" content="GoldR.org (BAJUS) অফিসিয়াল উইজেট ব্যবহার করে রিয়েল-টাইম সোনা-রুপার দাম ও যাকাত ক্যালকুলেটর">
+    <title>যাকাত ক্যালকুলেটর ২০২৬ | BAJUS লাইভ প্রাইস</title>
+    <meta name="description" content="BAJUS থেকে রিয়েল-টাইম সোনা-রুপার দাম নিয়ে যাকাত ক্যালকুলেটর">
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,10 +18,7 @@
             color: #1f2937;
             padding: 25px 15px;
         }
-        .container-custom {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+        .container-custom { max-width: 1200px; margin: 0 auto; }
         .card {
             background: white;
             border-radius: 32px;
@@ -63,15 +60,8 @@
             cursor: pointer;
             transition: 0.2s;
         }
-        .unit-toggle button.active {
-            background: #1e4a6b;
-            color: white;
-        }
-        .price-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-        }
+        .unit-toggle button.active { background: #1e4a6b; color: white; }
+        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
         .price-table {
             width: 100%;
             border-collapse: collapse;
@@ -80,17 +70,8 @@
             overflow: hidden;
             margin-top: 15px;
         }
-        .price-table th {
-            background: #d4af37;
-            color: #0b3550;
-            padding: 12px;
-            font-weight: 600;
-            font-size: 1rem;
-        }
-        .price-table td {
-            padding: 10px 12px;
-            border-bottom: 1px solid #e2e8f0;
-        }
+        .price-table th { background: #d4af37; color: #0b3550; padding: 12px; font-weight: 600; }
+        .price-table td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; }
         .price-table tr:last-child td { border-bottom: none; }
         .input-group {
             display: flex;
@@ -98,24 +79,15 @@
             gap: 5px;
             margin-bottom: 18px;
         }
-        .input-group label {
-            font-weight: 600;
-            color: #2d3c53;
-            font-size: 1rem;
-        }
+        .input-group label { font-weight: 600; color: #2d3c53; font-size: 1rem; }
         .input-group input {
             padding: 12px 20px;
             border: 2px solid #d1d9e6;
             border-radius: 40px;
             font-size: 1rem;
             background: white;
-            transition: 0.2s;
         }
-        .input-group input:focus {
-            border-color: #d4af37;
-            outline: none;
-            box-shadow: 0 0 0 4px rgba(212,175,55,0.2);
-        }
+        .input-group input:focus { border-color: #d4af37; outline: none; box-shadow: 0 0 0 4px rgba(212,175,55,0.2); }
         .btn-primary {
             background: linear-gradient(145deg, #0b3550, #1e4a6b);
             color: white;
@@ -157,36 +129,12 @@
             justify-content: space-between;
             cursor: pointer;
             margin-bottom: 10px;
-            transition: 0.2s;
         }
         .faq-btn:hover { background: #f1f5f9; border-color: #d4af37; }
-        .faq-answer {
-            display: none;
-            background: #f8fafc;
-            padding: 20px 25px;
-            border-radius: 24px;
-            margin: -5px 0 20px 0;
-            border: 1px solid #cbd5e1;
-        }
+        .faq-answer { display: none; background: #f8fafc; padding: 20px 25px; border-radius: 24px; margin: -5px 0 20px 0; border: 1px solid #cbd5e1; }
         .faq-answer.open { display: block; }
-        .status-badge {
-            background: #d4af37;
-            color: #0b3550;
-            padding: 6px 16px;
-            border-radius: 40px;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .last-update {
-            font-size: 0.9rem;
-            color: #0b3550;
-            background: #eef2f6;
-            padding: 8px 16px;
-            border-radius: 30px;
-            display: inline-block;
-        }
+        .status-badge { background: #d4af37; color: #0b3550; padding: 6px 16px; border-radius: 40px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+        .last-update { font-size: 0.9rem; color: #0b3550; background: #eef2f6; padding: 8px 16px; border-radius: 30px; display: inline-block; }
         .collapsible-trigger {
             background: #f8fafc;
             padding: 15px 20px;
@@ -199,64 +147,15 @@
             border: 2px solid #e2e8f0;
             margin-bottom: 20px;
         }
-        .collapsible-content {
-            display: none;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 24px;
-            margin-top: 10px;
-        }
+        .collapsible-content { display: none; padding: 20px; background: #f9f9f9; border-radius: 24px; margin-top: 10px; }
         .collapsible-content.show { display: block; }
-        .grid-2col {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-        }
-        .header-flex {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .footer-text {
-            text-align: center;
-            color: #4b5563;
-            font-size: 0.9rem;
-            margin-top: 20px;
-            padding: 10px;
-        }
-        .footer-text p {
-            margin: 5px 0;
-        }
-        .update-middle {
-            text-align: center;
-            margin: 10px 0;
-        }
-        .input-unit-badge {
-            display: inline-block;
-            background: #eef2f6;
-            padding: 4px 10px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            margin-left: 10px;
-            color: #1e4a6b;
-        }
-        .unit-subnote {
-            font-size: 0.8rem;
-            color: #6b7280;
-            margin-top: 5px;
-            text-align: right;
-        }
-        .faq-price-note {
-            margin-top: .5rem; 
-            font-size: .82rem; 
-            color: #555;
-            background: #f0fdf4; 
-            border: 1px solid #c8e6c9;
-            border-radius: 6px; 
-            padding: 6px 10px;
-        }
+        .grid-2col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; }
+        .header-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+        .footer-text { text-align: center; color: #4b5563; font-size: 0.9rem; margin-top: 20px; padding: 10px; }
+        .footer-text p { margin: 5px 0; }
+        .update-middle { text-align: center; margin: 10px 0; }
+        .input-unit-badge { display: inline-block; background: #eef2f6; padding: 4px 10px; border-radius: 20px; font-size: 0.8rem; margin-left: 10px; color: #1e4a6b; }
+        .unit-subnote { font-size: 0.8rem; color: #6b7280; margin-top: 5px; text-align: right; }
         .info-card {
             background: linear-gradient(to right, #f0fdf4, #ecfdf5);
             border-left: 4px solid #10b981;
@@ -264,44 +163,15 @@
             padding: 1.5rem;
             margin-bottom: 1.5rem;
         }
-        .info-card h3 {
-            font-weight: 700;
-            color: #065f46;
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: center;
-            font-size: 1.125rem;
-        }
-        .info-card p {
-            margin-bottom: 0.5rem;
-            font-size: 0.875rem;
-            color: #374151;
-        }
-        .conversion-helper {
-            background: #f3f4f6;
-            border-radius: 16px;
-            padding: 15px;
-            margin-bottom: 20px;
-            font-size: 0.9rem;
-        }
-        .conversion-helper table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        .conversion-helper th, .conversion-helper td {
-            padding: 8px;
-            text-align: center;
-            border: 1px solid #d1d5db;
-        }
-        .conversion-helper th {
-            background: #d4af37;
-            color: #0b3550;
-        }
-        @media (max-width:700px) {
-            .grid-2col { grid-template-columns: 1fr; }
-            .header-flex { flex-direction: column; align-items: flex-start; }
-        }
+        .info-card h3 { font-weight: 700; color: #065f46; margin-bottom: 0.75rem; display: flex; align-items: center; font-size: 1.125rem; }
+        .info-card p { margin-bottom: 0.5rem; font-size: 0.875rem; color: #374151; }
+        .conversion-helper { background: #f3f4f6; border-radius: 16px; padding: 15px; margin-bottom: 20px; font-size: 0.9rem; }
+        .conversion-helper table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .conversion-helper th, .conversion-helper td { padding: 8px; text-align: center; border: 1px solid #d1d5db; }
+        .conversion-helper th { background: #d4af37; color: #0b3550; }
+        .refresh-btn { background: #28a745; color: white; border: none; padding: 6px 16px; border-radius: 40px; cursor: pointer; font-size: 0.8rem; margin-left: 10px; }
+        .refresh-btn:hover { background: #218838; }
+        @media (max-width:700px) { .grid-2col { grid-template-columns: 1fr; } .header-flex { flex-direction: column; align-items: flex-start; } }
     </style>
 </head>
 <body>
@@ -317,10 +187,14 @@
             </div>
         </div>
         <div class="update-middle">
-            <span class="status-badge" id="liveStatus"><i class="fas fa-check-circle"></i> GoldR অফিসিয়াল</span>
-            <span class="last-update" id="lastUpdateTime" style="margin-left: 10px;"><i class="fas fa-clock"></i> আপডেট: ১৮ মার্চ ২০২৬</span>
+            <span class="status-badge" id="liveStatus"><i class="fas fa-check-circle"></i> BAJUS অফিসিয়াল</span>
+            <span class="last-update" id="lastUpdateTime" style="margin-left: 10px;"><i class="fas fa-clock"></i> আপডেট: লোড হচ্ছে...</span>
+            <button class="refresh-btn" onclick="forceRefresh()"><i class="fas fa-sync-alt"></i> রিফ্রেশ</button>
         </div>
     </div>
+
+    <!-- উইজেটের ডাটা দেখানোর জন্য লুকানো div -->
+    <div id="priceTable" style="display: none;"></div>
 
     <div class="card">
         <h2><i class="fas fa-chart-line"></i> বর্তমান বাজারমূল্য</h2>
@@ -328,7 +202,7 @@
             <div>
                 <h3 class="text-xl font-bold mb-3"><i class="fas fa-coins text-yellow-600"></i> সোনার মূল্য <span id="goldUnitLabel" class="text-sm">(টাকা/ভরি)</span></h3>
                 <table class="price-table">
-                    <thead><tr><th>ধরন</th><th>ক্রয়মূল্য</th></tr></thead>
+                    <thead>  <tr><th>ধরন</th><th>ক্রয়মূল্য</th></tr> </thead>
                     <tbody>
                         <tr><td>২২ ক্যারেট</td><td id="gold22Price" class="font-bold price-val">—</td></tr>
                         <tr><td>২১ ক্যারেট</td><td id="gold21Price" class="font-bold price-val">—</td></tr>
@@ -340,7 +214,7 @@
             <div>
                 <h3 class="text-xl font-bold mb-3"><i class="fas fa-ring text-gray-500"></i> রুপার মূল্য <span id="silverUnitLabel" class="text-sm">(টাকা/ভরি)</span></h3>
                 <table class="price-table">
-                    <thead><tr><th>ধরন</th><th>ক্রয়মূল্য</th></tr></thead>
+                    <thead>  <tr><th>ধরন</th><th>ক্রয়মূল্য</th></tr> </thead>
                     <tbody>
                         <tr><td>২২ ক্যারেট</td><td id="silver22Price" class="font-bold price-val">—</td></tr>
                         <tr><td>২১ ক্যারেট</td><td id="silver21Price" class="font-bold price-val">—</td></tr>
@@ -352,35 +226,29 @@
         </div>
     </div>
 
-    
-    <div id="priceTable" style="display: none;"></div>
-
-   
     <div class="card">
         <div class="collapsible-trigger" onclick="togglePriceEditor()">
             <span><i class="fas fa-edit"></i> মূল্য পরিবর্তন করুন (টাকা/গ্রাম)</span>
             <i class="fas fa-chevron-down" id="toggleIcon"></i>
         </div>
         <div id="priceEditor" class="collapsible-content">
-            <p class="text-gray-600 mb-4"><i class="fas fa-info-circle text-[#d4af37]"></i> উপরের মূল্য স্বয়ংক্রিয়ভাবে GoldR উইজেট থেকে লোড হয়। প্রয়োজনে নিচে পরিবর্তন করুন।</p>
-            
+            <p class="text-gray-600 mb-4"><i class="fas fa-info-circle text-[#d4af37]"></i> উপরের মূল্য স্বয়ংক্রিয়ভাবে BAJUS থেকে লোড হয়। প্রয়োজনে নিচে পরিবর্তন করুন।</p>
             <div class="grid-2col">
                 <div>
                     <h3 class="font-bold text-lg mb-4">সোনার মূল্য (টাকা/গ্রাম)</h3>
-                    <div class="input-group"><label>২২ ক্যারেট:</label> <input type="number" id="goldRate22" value="22485" step="1"></div>
-                    <div class="input-group"><label>২১ ক্যারেট:</label> <input type="number" id="goldRate21" value="21465" step="1"></div>
-                    <div class="input-group"><label>১৮ ক্যারেট:</label> <input type="number" id="goldRate18" value="18400" step="1"></div>
-                    <div class="input-group"><label>সনাতন:</label> <input type="number" id="goldRateTrad" value="14985" step="1"></div>
+                    <div class="input-group"><label>২২ ক্যারেট:</label> <input type="number" id="goldRate22" step="1"></div>
+                    <div class="input-group"><label>২১ ক্যারেট:</label> <input type="number" id="goldRate21" step="1"></div>
+                    <div class="input-group"><label>১৮ ক্যারেট:</label> <input type="number" id="goldRate18" step="1"></div>
+                    <div class="input-group"><label>সনাতন:</label> <input type="number" id="goldRateTrad" step="1"></div>
                 </div>
                 <div>
                     <h3 class="font-bold text-lg mb-4">রুপার মূল্য (টাকা/গ্রাম)</h3>
-                    <div class="input-group"><label>২২ ক্যারেট:</label> <input type="number" id="silverRate22" value="520" step="1"></div>
-                    <div class="input-group"><label>২১ ক্যারেট:</label> <input type="number" id="silverRate21" value="495" step="1"></div>
-                    <div class="input-group"><label>১৮ ক্যারেট:</label> <input type="number" id="silverRate18" value="425" step="1"></div>
-                    <div class="input-group"><label>সনাতন:</label> <input type="number" id="silverRateTrad" value="320" step="1"></div>
+                    <div class="input-group"><label>২২ ক্যারেট:</label> <input type="number" id="silverRate22" step="1"></div>
+                    <div class="input-group"><label>২১ ক্যারেট:</label> <input type="number" id="silverRate21" step="1"></div>
+                    <div class="input-group"><label>১৮ ক্যারেট:</label> <input type="number" id="silverRate18" step="1"></div>
+                    <div class="input-group"><label>সনাতন:</label> <input type="number" id="silverRateTrad" step="1"></div>
                 </div>
             </div>
-            
             <div class="flex gap-4 mt-5 justify-center">
                 <button class="btn-secondary" onclick="applyManualRates()"><i class="fas fa-save"></i> মূল্য আপডেট করুন</button>
                 <button class="btn-secondary" onclick="resetToLiveRates()"><i class="fas fa-undo"></i> রিসেট</button>
@@ -389,475 +257,155 @@
     </div>
 
     <div class="card conversion-helper">
-        <h3 class="font-bold text-lg mb-3 flex items-center">
-            <i class="fas fa-weight text-[#d4af37] mr-2"></i> ওজন রূপান্তর সহায়িকা
-        </h3>
+        <h3 class="font-bold text-lg mb-3 flex items-center"><i class="fas fa-weight text-[#d4af37] mr-2"></i> ওজন রূপান্তর সহায়িকা</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-                <p class="font-semibold">🔹 মূল এককগুলো</p>
-                <p>• ১ ভরি = ১৬ আনা</p>
-                <p>• ১ ভরি = ১১.৬৬৪ গ্রাম</p>
-                <p>• ১ আনা = ০.৭২৯ গ্রাম (প্রায়)</p>
-                <p>• ১ গ্রাম ≈ ০.০৮৫৭ ভরি</p>
-            </div>
-            <div>
-                <p class="font-semibold">🔹 আনা থেকে গ্রাম</p>
-                <p>👉 ১ আনা = ১১.৬৬৪ ÷ ১৬ = ০.৭২৯ গ্রাম</p>
-                <p class="font-semibold mt-2">🔹 গ্রাম → ভরি/আনা</p>
-                <p>👉 ভরি = গ্রাম ÷ ১১.৬৬৪</p>
-                <p>👉 আনা = ভরি × ১৬</p>
-            </div>
+            <div><p class="font-semibold">🔹 মূল এককগুলো</p><p>• ১ ভরি = ১৬ আনা</p><p>• ১ ভরি = ১১.৬৬৪ গ্রাম</p><p>• ১ আনা = ০.৭২৯ গ্রাম</p></div>
+            <div><p class="font-semibold">🔹 আনা থেকে গ্রাম</p><p>👉 ১ আনা = ১১.৬৬৪ ÷ ১৬ = ০.৭২৯ গ্রাম</p></div>
         </div>
-        <table class="mt-3">
-            <thead>
-                <tr><th>আনা</th><th>ভরি</th><th>গ্রাম</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>১ আনা</td><td>০.০৬২৫ ভরি</td><td>০.৭২৯ গ্রাম</td></tr>
-                <tr><td>২ আনা</td><td>০.১২৫ ভরি</td><td>১.৪৫৮ গ্রাম</td></tr>
-                <tr><td>৪ আনা</td><td>০.২৫ ভরি</td><td>২.৯১৬ গ্রাম</td></tr>
-                <tr><td>৮ আনা</td><td>০.৫ ভরি</td><td>৫.৮৩২ গ্রাম</td></tr>
-                <tr><td>১২ আনা</td><td>০.৭৫ ভরি</td><td>৮.৭৪৮ গ্রাম</td></tr>
-                <tr><td>১৬ আনা</td><td>১ ভরি</td><td>১১.৬৬৪ গ্রাম</td></tr>
-            </tbody>
-        </table>
-        <p class="text-xs text-gray-600 mt-2">✅ উদাহরণ: ৫ গ্রাম = ৫ ÷ ১১.৬৬৪ ≈ ০.৪৩ ভরি = ০.৪৩ × ১৬ ≈ ৬.৯ আনা (প্রায় ৭ আনা)</p>
+        <table class="mt-3"><thead><tr><th>আনা</th><th>ভরি</th><th>গ্রাম</th></tr></thead>
+        <tbody><tr><td>১ আনা</td><td>০.০৬২৫ ভরি</td><td>০.৭২৯ গ্রাম</td></tr>
+        <tr><td>২ আনা</td><td>০.১২৫ ভরি</td><td>১.৪৫৮ গ্রাম</td></tr>
+        <tr><td>৪ আনা</td><td>০.২৫ ভরি</td><td>২.৯১৬ গ্রাম</td></tr>
+        <tr><td>৮ আনা</td><td>০.৫ ভরি</td><td>৫.৮৩২ গ্রাম</td></tr>
+        <tr><td>১২ আনা</td><td>০.৭৫ ভরি</td><td>৮.৭৪৮ গ্রাম</td></tr>
+        <tr><td>১৬ আনা</td><td>১ ভরি</td><td>১১.৬৬৪ গ্রাম</td></tr></tbody></table>
     </div>
 
     <div class="card">
         <h2><i class="fas fa-calculator"></i> আপনার সম্পদ লিখুন <span id="inputUnitBadge" class="input-unit-badge">আনাতে লিখুন</span></h2>
-        
-        
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-coins text-yellow-600"></i> সোনা (আনাতে লিখুন)</h3>
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-coins text-yellow-600"></i> সোনা (আনাতে লিখুন)</h3>
             <div class="grid-2col">
-                <div class="input-group">
-                    <label>২২ ক্যারেট:</label>
-                    <input type="number" id="gold22_in" step="0.01" placeholder="যেমন: 7 (৭ আনা) বা 7.5 (সাড়ে ৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>২১ ক্যারেট:</label>
-                    <input type="number" id="gold21_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>১৮ ক্যারেট:</label>
-                    <input type="number" id="gold18_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>সনাতন:</label>
-                    <input type="number" id="goldTrad_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-            </div>
-            <div class="unit-subnote">* শুধু আনায় লিখুন (যেমন: 7 = ৭ আনা, 7.5 = সাড়ে ৭ আনা)</div>
-        </div>
-
-       
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-ring text-gray-500"></i> রুপা (আনাতে লিখুন)</h3>
-            <div class="grid-2col">
-                <div class="input-group">
-                    <label>২২ ক্যারেট:</label>
-                    <input type="number" id="silver22_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>২১ ক্যারেট:</label>
-                    <input type="number" id="silver21_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>১৮ ক্যারেট:</label>
-                    <input type="number" id="silver18_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-                <div class="input-group">
-                    <label>সনাতন:</label>
-                    <input type="number" id="silverTrad_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)">
-                </div>
-            </div>
-            <div class="unit-subnote">* শুধু আনায় লিখুন</div>
-        </div>
-
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-money-bill-wave"></i> নগদ ও ব্যাংক আমানত</h3>
-            <div class="grid-2col">
-                <div class="input-group"><label>হাতে নগদ (টাকা):</label> <input type="number" id="cash" step="1" placeholder="০"></div>
-                <div class="input-group"><label>ব্যাংক আমানত (টাকা):</label> <input type="number" id="bank" step="1" placeholder="০"></div>
-                <div class="input-group"><label>স্থায়ী আমানত (FDR):</label> <input type="number" id="fdr" step="1" placeholder="০"></div>
+                <div class="input-group"><label>২২ ক্যারেট:</label><input type="number" id="gold22_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>২১ ক্যারেট:</label><input type="number" id="gold21_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>১৮ ক্যারেট:</label><input type="number" id="gold18_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>সনাতন:</label><input type="number" id="goldTrad_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
             </div>
         </div>
-
-       
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-chart-line"></i> বিনিয়োগ</h3>
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-ring text-gray-500"></i> রুপা (আনাতে লিখুন)</h3>
             <div class="grid-2col">
-                <div class="input-group"><label>শেয়ার/স্টক (টাকা):</label> <input type="number" id="stocks" step="1" placeholder="০"></div>
-                <div class="input-group"><label>মিউচুয়াল ফান্ড (টাকা):</label> <input type="number" id="mf" step="1" placeholder="০"></div>
-                <div class="input-group"><label>অন্যান্য বিনিয়োগ:</label> <input type="number" id="other" step="1" placeholder="০"></div>
+                <div class="input-group"><label>২২ ক্যারেট:</label><input type="number" id="silver22_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>২১ ক্যারেট:</label><input type="number" id="silver21_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>১৮ ক্যারেট:</label><input type="number" id="silver18_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
+                <div class="input-group"><label>সনাতন:</label><input type="number" id="silverTrad_in" step="0.01" placeholder="যেমন: 7 (৭ আনা)"></div>
             </div>
         </div>
-
-        
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-briefcase"></i> ব্যবসায়িক সম্পদ</h3>
-            <div class="grid-2col">
-                <div class="input-group"><label>মালামালের মূল্য (টাকা):</label> <input type="number" id="inventory" step="1" placeholder="০"></div>
-                <div class="input-group"><label>ব্যবসায়িক নগদ (টাকা):</label> <input type="number" id="businessCash" step="1" placeholder="০"></div>
-            </div>
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-money-bill-wave"></i> নগদ ও ব্যাংক আমানত</h3>
+            <div class="grid-2col"><div class="input-group"><label>হাতে নগদ:</label><input type="number" id="cash" step="1"></div>
+            <div class="input-group"><label>ব্যাংক আমানত:</label><input type="number" id="bank" step="1"></div>
+            <div class="input-group"><label>FDR:</label><input type="number" id="fdr" step="1"></div></div>
         </div>
-
-        
-        <div class="mb-8">
-            <h3 class="section-header"><i class="fas fa-minus-circle text-red-500"></i> দায় (সম্পদ থেকে বাদ যাবে)</h3>
-            <div class="grid-2col">
-                <div class="input-group"><label>স্বল্পমেয়াদী ঋণ (টাকা):</label> <input type="number" id="shortDebt" step="1" placeholder="০"></div>
-                <div class="input-group"><label>দীর্ঘমেয়াদী ঋণ (টাকা):</label> <input type="number" id="longDebt" step="1" placeholder="০"></div>
-                <div class="input-group"><label>অন্যান্য দায়:</label> <input type="number" id="otherLiab" step="1" placeholder="০"></div>
-            </div>
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-chart-line"></i> বিনিয়োগ</h3>
+            <div class="grid-2col"><div class="input-group"><label>শেয়ার/স্টক:</label><input type="number" id="stocks" step="1"></div>
+            <div class="input-group"><label>মিউচুয়াল ফান্ড:</label><input type="number" id="mf" step="1"></div>
+            <div class="input-group"><label>অন্যান্য:</label><input type="number" id="other" step="1"></div></div>
         </div>
-
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-briefcase"></i> ব্যবসায়িক সম্পদ</h3>
+            <div class="grid-2col"><div class="input-group"><label>মালামাল:</label><input type="number" id="inventory" step="1"></div>
+            <div class="input-group"><label>ব্যবসায়িক নগদ:</label><input type="number" id="businessCash" step="1"></div></div>
+        </div>
+        <div class="mb-8"><h3 class="section-header"><i class="fas fa-minus-circle text-red-500"></i> দায় (ঋণ)</h3>
+            <div class="grid-2col"><div class="input-group"><label>স্বল্পমেয়াদী:</label><input type="number" id="shortDebt" step="1"></div>
+            <div class="input-group"><label>দীর্ঘমেয়াদী:</label><input type="number" id="longDebt" step="1"></div>
+            <div class="input-group"><label>অন্যান্য:</label><input type="number" id="otherLiab" step="1"></div></div>
+        </div>
         <button class="btn-primary" onclick="calculateZakat()"><i class="fas fa-calculator me-2"></i> যাকাত হিসাব করুন</button>
         <div id="resultArea" style="display: none;" class="result-card mt-6"></div>
     </div>
 
-    <div class="info-card">
-        <h3><span class="mr-2">📋</span> গুরুত্বপূর্ণ তথ্য</h3>
+    <div class="info-card"><h3><span class="mr-2">📋</span> গুরুত্বপূর্ণ তথ্য</h3>
         <p>• এই ক্যালকুলেটর সাধারণ হিসাবের জন্য। জটিল পরিস্থিতিতে আলেমের পরামর্শ নিন।</p>
-        <p>• সোনা-রূপার দাম বাজুস (BAJUS) থেকে নেওয়া হয়েছে।</p>
+        <p>• সোনা-রূপার দাম বাংলাদেশ জুয়েলার্স এসোসিয়েশন (BAJUS) থেকে সংগৃহীত।</p>
         <p>• নিসাব হিসাবে রূপার মূল্য ব্যবহার করা হয়েছে (অধিক সতর্কতামূলক)।</p>
         <p>• যাকাত হিজরি বছর অনুযায়ী দিতে হয়, তবে সৌর বছরে দিলে ২.৫৭৭% হারে দিতে হবে।</p>
         <p>• যাকাত দেওয়ার সময় নিয়ত করা জরুরি।</p>
     </div>
 
-    <section class="mt-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center">
-            <span class="bg-gradient-to-br from-purple-500 to-pink-500 p-3 rounded-xl mr-3 text-white shadow-lg">❓</span>
-            যাকাত সম্পর্কিত প্রশ্নোত্তর
-        </h2>
-
+    <section class="mt-12"><h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center"><span class="bg-gradient-to-br from-purple-500 to-pink-500 p-3 rounded-xl mr-3 text-white shadow-lg">❓</span> যাকাত সম্পর্কিত প্রশ্নোত্তর</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-         
-            <div class="space-y-3">
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        যাকাত কী এবং কেন ফরজ?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        যাকাত ইসলামের পাঁচ স্তম্ভের একটি। এটি ধনীদের সম্পদে গরিবদের অধিকার। সম্পদ পবিত্র করে ও বরকত বাড়ায়।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        যাকাত কখন দিতে হয়?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        নিসাব পরিমাণ সম্পদ এক চন্দ্র বছর থাকলে যাকাত ফরজ। রমজানে দিলে সওয়াব বেশি।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        সোনার গহনায় কি যাকাত দিতে হবে?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        হ্যাঁ, হানাফি মাযহাব মতে সব সোনায় যাকাত ফরজ - ব্যবহৃত বা অব্যবহৃত।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        ঋণ থাকলে কি যাকাত দিতে হবে?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        সম্পদ থেকে ঋণ বাদ দিয়ে নিসাব থাকলে যাকাত দিতে হবে। না থাকলে ফরজ নয়।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        যাকাত কি আত্মীয়দের দেওয়া যায়?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        হ্যাঁ, তবে মা-বাবা, স্ত্রী-সন্তানকে নয়। গরিব ভাই-বোন, চাচা-মামাকে দিলে দ্বিগুণ সওয়াব।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        ফিতরা ও যাকাতের পার্থক্য কী?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        যাকাত: সম্পদে ২.৫%, বছরে একবার। ফিতরা: ব্যক্তিপ্রতি, রমজান শেষে, নির্দিষ্ট পরিমাণ।
-                    </div>
-                </details>
-            </div>
-
-            
-            <div class="space-y-3">
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        FDR ও DPS এ যাকাত কিভাবে দিব?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        মূল টাকা + জমা মুনাফা মিলিয়ে মোট অংকের ২.৫% যাকাত দিতে হবে।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        শেয়ার বাজারে বিনিয়োগে যাকাত কত?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        শেয়ারের বর্তমান বাজার মূল্যের ২.৫%। ক্রয় মূল্য নয়, হাওল দিনের মার্কেট ভ্যালু।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        বাড়ি-গাড়িতে কি যাকাত দিতে হয়?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        না, বসবাসের বাড়ি ও ব্যক্তিগত গাড়িতে যাকাত নেই। তবে ভাড়ার আয়ে যাকাত আছে।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        যাকাত না দিলে কী হয়?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        যাকাত ফরজ হয়ে না দেওয়া কবিরা গুনাহ। হাদিসে কঠোর শাস্তির কথা বলা হয়েছে।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        নিসাব কি সোনা নাকি রূপার হিসাবে?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        রূপার নিসাব অনুসরণ করা উত্তম কারণ এতে বেশি মানুষ যাকাতের আওতায় আসে।
-                    </div>
-                </details>
-
-                <details class="bg-white rounded-xl shadow-md p-4 group border border-gray-100 hover:border-green-200 transition">
-                    <summary class="font-semibold text-gray-800 cursor-pointer flex justify-between items-center text-sm">
-                        ব্যবসায়িক পণ্যে কিভাবে যাকাত দিব?
-                        <span class="text-green-500 group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                        হাওল দিনে স্টকের বাজার মূল্যের ২.৫%। দোকান/গুদামের সব বিক্রয়যোগ্য পণ্য গণনায় আসবে।
-                    </div>
-                </details>
-            </div>
+            <div class="space-y-3"><details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">যাকাত কী এবং কেন ফরজ? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">যাকাত ইসলামের পাঁচ স্তম্ভের একটি। এটি ধনীদের সম্পদে গরিবদের অধিকার।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">যাকাত কখন দিতে হয়? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">নিসাব পরিমাণ সম্পদ এক চন্দ্র বছর থাকলে যাকাত ফরজ।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">সোনার গহনায় যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">হ্যাঁ, হানাফি মাযহাব মতে সব সোনায় যাকাত ফরজ।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">ঋণ থাকলে যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">সম্পদ থেকে ঋণ বাদ দিয়ে নিসাব থাকলে যাকাত দিতে হবে।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">আত্মীয়দের যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">হ্যাঁ, তবে মা-বাবা, স্ত্রী-সন্তানকে নয়।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">ফিতরা ও যাকাতের পার্থক্য? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">যাকাত: সম্পদে ২.৫%, ফিতরা: ব্যক্তিপ্রতি নির্দিষ্ট পরিমাণ।</div></details></div>
+            <div class="space-y-3"><details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">FDR ও DPS এ যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">মূল টাকা + মুনাফা মিলিয়ে ২.৫%।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">শেয়ার বাজারে যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">বর্তমান বাজার মূল্যের ২.৫%।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">বাড়ি-গাড়িতে যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">বসবাসের বাড়ি ও ব্যক্তিগত গাড়িতে যাকাত নেই।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">যাকাত না দিলে? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">কবিরা গুনাহ, হাদিসে কঠোর শাস্তির কথা বলা হয়েছে।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">নিসাব সোনা না রূপা? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">রূপার নিসাব অনুসরণ করা উত্তম।</div></details>
+            <details class="bg-white rounded-xl shadow-md p-4"><summary class="font-semibold">ব্যবসায়িক পণ্যে যাকাত? <span class="text-green-500">▼</span></summary><div class="mt-3 pt-3 text-xs text-gray-600">হাওল দিনে স্টকের বাজার মূল্যের ২.৫%।</div></details></div>
         </div>
     </section>
 
-    <section class="mt-12">
-        <div class="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 rounded-xl p-6">
-            <h3 class="font-bold text-red-800 mb-4 flex items-center text-lg">
-                <span class="mr-2">❌</span> যে সম্পদে যাকাত নেই
-            </h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm text-gray-700">
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>বসবাসের ঘর/ফ্ল্যাট</span>
-                </div>
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>ব্যক্তিগত গাড়ি</span>
-                </div>
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>পরিধেয় কাপড়</span>
-                </div>
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>ঘরের আসবাবপত্র</span>
-                </div>
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>পেশাগত যন্ত্রপাতি</span>
-                </div>
-                <div class="flex items-start">
-                    <span class="text-red-500 mr-2">✗</span>
-                    <span>খাদ্য সামগ্রী (নিজ ব্যবহারের)</span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="mt-12"><div class="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 rounded-xl p-6"><h3 class="font-bold text-red-800 mb-4">❌ যে সম্পদে যাকাত নেই</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"><div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>বসবাসের ঘর/ফ্ল্যাট</span></div>
+        <div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>ব্যক্তিগত গাড়ি</span></div><div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>পরিধেয় কাপড়</span></div>
+        <div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>ঘরের আসবাবপত্র</span></div><div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>পেশাগত যন্ত্রপাতি</span></div>
+        <div class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>খাদ্য সামগ্রী</span></div></div></div></section>
 
-    <section class="mt-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center">
-            <span class="bg-gradient-to-br from-amber-500 to-orange-500 p-3 rounded-xl mr-3 text-white shadow-lg">💰</span>
-            কোন সম্পদে যাকাত ফরজ?
-        </h2>
+    <section class="mt-12"><h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center"><span class="bg-gradient-to-br from-amber-500 to-orange-500 p-3 rounded-xl mr-3 text-white shadow-lg">💰</span> কোন সম্পদে যাকাত ফরজ?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">🥇</div><h3 class="font-bold">সোনা ও রূপা</h3><p class="text-sm">সোনা ৭.৫ ভরি বা রূপা ৫২.৫ ভরি থাকলে যাকাত ফরজ।</p></div>
+        <div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">💵</div><h3 class="font-bold">নগদ টাকা</h3><p class="text-sm">হাতে নগদ, ব্যাংক ব্যালেন্স, FDR সব নগদ অর্থে যাকাত দিতে হবে।</p></div>
+        <div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">📈</div><h3 class="font-bold">বিনিয়োগ ও শেয়ার</h3><p class="text-sm">শেয়ার, মিউচুয়াল ফান্ডের বাজার মূল্যের উপর যাকাত।</p></div>
+        <div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">🏪</div><h3 class="font-bold">ব্যবসায়িক পণ্য</h3><p class="text-sm">বিক্রয়ের উদ্দেশ্যে রাখা পণ্যের বাজার মূল্যের উপর যাকাত।</p></div>
+        <div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">📝</div><h3 class="font-bold">পাওনা টাকা</h3><p class="text-sm">অন্যের কাছে পাওনা টাকা ফেরত পাওয়ার সম্ভাবনা থাকলে যাকাত।</p></div>
+        <div class="bg-white rounded-2xl shadow-md p-6"><div class="text-3xl mb-3">🌾</div><h3 class="font-bold">কৃষি ফসল</h3><p class="text-sm">ফসল উৎপাদন হলে উশর দিতে হয়।</p></div></div></section>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">🥇</div>
-                <h3 class="font-bold text-gray-800 mb-2">সোনা ও রূপা</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    সোনা ৭.৫ তোলা (৮৭.৪৮ গ্রাম) বা রূপা ৫২.৫ তোলা (৬১২.৩৬ গ্রাম) থাকলে যাকাত ফরজ। গহনা, বার, বিস্কুট সবই অন্তর্ভুক্ত।
-                </p>
-            </div>
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">💵</div>
-                <h3 class="font-bold text-gray-800 mb-2">নগদ টাকা</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    হাতে নগদ, ব্যাংক ব্যালেন্স, সেভিংস, ফিক্সড ডিপোজিট সব নগদ অর্থে যাকাত দিতে হবে।
-                </p>
-            </div>
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">📈</div>
-                <h3 class="font-bold text-gray-800 mb-2">বিনিয়োগ ও শেয়ার</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    শেয়ার বাজারে বিনিয়োগ, মিউচুয়াল ফান্ড, বন্ড ইত্যাদির বাজার মূল্যের উপর যাকাত।
-                </p>
-            </div>
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">🏪</div>
-                <h3 class="font-bold text-gray-800 mb-2">ব্যবসায়িক পণ্য</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    বিক্রয়ের উদ্দেশ্যে রাখা পণ্যের বাজার মূল্যের উপর যাকাত। দোকানের মালামাল, গুদামের পণ্য।
-                </p>
-            </div>
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">📝</div>
-                <h3 class="font-bold text-gray-800 mb-2">পাওনা টাকা</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    যে টাকা অন্যের কাছে পাওনা আছে এবং ফেরত পাওয়ার সম্ভাবনা আছে, তার উপরও যাকাত।
-                </p>
-            </div>
-            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-                <div class="text-3xl mb-3">🌾</div>
-                <h3 class="font-bold text-gray-800 mb-2">কৃষি ফসল</h3>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                    ফসল উৎপাদন হলে উশর দিতে হয়। সেচ সুবিধায় ৫%, প্রাকৃতিক পানিতে ১০%।
-                </p>
-            </div>
-        </div>
-    </section>
+    <section class="mt-12"><h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center"><span class="bg-gradient-to-br from-green-500 to-emerald-500 p-3 rounded-xl mr-3 text-white shadow-lg">🤲</span> যাকাত কাদের দেবেন? (৮ শ্রেণী)</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"><div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">😢</div><h3 class="font-bold">ফকির</h3><p class="text-xs">যাদের কিছুই নেই</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">🏚️</div><h3 class="font-bold">মিসকিন</h3><p class="text-xs">যাদের সম্পদ আছে কিন্তু প্রয়োজন মেটে না</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">📋</div><h3 class="font-bold">যাকাত কর্মী</h3><p class="text-xs">যারা যাকাত সংগ্রহ ও বিতরণ করেন</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">❤️</div><h3 class="font-bold">মুয়াল্লাফাতুল কুলুব</h3><p class="text-xs">নও মুসলিম বা ইসলামে আগ্রহী</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">⛓️</div><h3 class="font-bold">দাসমুক্তি</h3><p class="text-xs">দাসত্ব থেকে মুক্তির জন্য</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">💳</div><h3 class="font-bold">ঋণগ্রস্ত</h3><p class="text-xs">ঋণ পরিশোধে অক্ষম ব্যক্তি</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">🕌</div><h3 class="font-bold">ফি সাবিলিল্লাহ</h3><p class="text-xs">আল্লাহর পথে কাজ করা</p></div>
+        <div class="bg-white rounded-xl shadow-md p-4 text-center"><div class="text-3xl mb-2">🧳</div><h3 class="font-bold">মুসাফির</h3><p class="text-xs">সফরে বিপদগ্রস্ত পথিক</p></div></div>
+        <p class="text-center text-xs text-gray-500 mt-4">📖 সূরা আত-তওবা, আয়াত ৬০</p></section>
 
-    <section class="mt-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center">
-            <span class="bg-gradient-to-br from-green-500 to-emerald-500 p-3 rounded-xl mr-3 text-white shadow-lg">🤲</span>
-            যাকাত কাদের দেবেন? (৮ শ্রেণী)
-        </h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">😢</div>
-                <h3 class="font-bold text-gray-800 mb-1">ফকির</h3>
-                <p class="text-xs text-gray-600">যাদের কিছুই নেই</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">🏚️</div>
-                <h3 class="font-bold text-gray-800 mb-1">মিসকিন</h3>
-                <p class="text-xs text-gray-600">যাদের সম্পদ আছে কিন্তু প্রয়োজন মেটে না</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">📋</div>
-                <h3 class="font-bold text-gray-800 mb-1">যাকাত কর্মী</h3>
-                <p class="text-xs text-gray-600">যারা যাকাত সংগ্রহ ও বিতরণ করেন</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">❤️</div>
-                <h3 class="font-bold text-gray-800 mb-1">মুয়াল্লাফাতুল কুলুব</h3>
-                <p class="text-xs text-gray-600">নও মুসলিম বা ইসলামে আগ্রহী</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">⛓️</div>
-                <h3 class="font-bold text-gray-800 mb-1">দাসমুক্তি</h3>
-                <p class="text-xs text-gray-600">দাসত্ব থেকে মুক্তির জন্য</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">💳</div>
-                <h3 class="font-bold text-gray-800 mb-1">ঋণগ্রস্ত</h3>
-                <p class="text-xs text-gray-600">ঋণ পরিশোধে অক্ষম ব্যক্তি</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">🕌</div>
-                <h3 class="font-bold text-gray-800 mb-1">ফি সাবিলিল্লাহ</h3>
-                <p class="text-xs text-gray-600">আল্লাহর পথে কাজ করা</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md p-4 border border-gray-100 text-center">
-                <div class="text-3xl mb-2">🧳</div>
-                <h3 class="font-bold text-gray-800 mb-1">মুসাফির</h3>
-                <p class="text-xs text-gray-600">সফরে বিপদগ্রস্ত পথিক</p>
-            </div>
-        </div>
-        <p class="text-center text-xs text-gray-500 mt-4">📖 সূরা আত-তওবা, আয়াত ৬০</p>
-    </section>
-
-    <div class="footer-text">
-        <p>সর্বশেষ মূল্য: বাংলাদেশ জুয়েলার্স এসোসিয়েশন (BAJUS) ভিত্তিক goldr.org থেকে অফিসিয়াল উইজেটের মাধ্যমে স্বয়ংক্রিয় আপডেট</p>
-        <p>© ২০২৬ সম্পূর্ণ যাকাত ক্যালকুলেটর</p>
-        <p class="text-xs mt-2">সিস্টেম ডেভেলপার - মোঃ মোর্শেদ আলী</p>
+    <div class="footer-text"><p>সর্বশেষ মূল্য: বাংলাদেশ জুয়েলার্স এসোসিয়েশন (BAJUS) থেকে সংগৃহীত</p>
+        <p>© ২০২৬ সম্পূর্ণ যাকাত ক্যালকুলেটর | সিস্টেম ডেভেলপার - মোঃ মোর্শেদ আলী</p>
     </div>
 </div>
 
-<!-- GoldR অফিসিয়াল উইজেট স্ক্রিপ্ট -->
 <script src="https://www.goldr.org/price.js?gttm"></script>
-
 <script>
 const BHORI = 11.664;
 const ANA_TO_GRAM = 0.729;
-
 let currentUnit = 'bhori';
-
 let rates = { 
     gold: { '22k': 22485, '21k': 21465, '18k': 18400, 'traditional': 14985 },
     silver: { '22k': 520, '21k': 495, '18k': 425, 'traditional': 320 }
 };
 
-function fetchGoldRates() {
-    setTimeout(() => {
-        const rows = document.querySelectorAll('#priceTable table tbody tr');
-        if (rows.length >= 8) {
-            rates.gold['22k'] = extractNumber(rows[0]?.cells[1]?.innerText) || rates.gold['22k'];
-            rates.gold['21k'] = extractNumber(rows[1]?.cells[1]?.innerText) || rates.gold['21k'];
-            rates.gold['18k'] = extractNumber(rows[2]?.cells[1]?.innerText) || rates.gold['18k'];
-            rates.gold['traditional'] = extractNumber(rows[3]?.cells[1]?.innerText) || rates.gold['traditional'];
-            
-            rates.silver['22k'] = extractNumber(rows[4]?.cells[1]?.innerText) || rates.silver['22k'];
-            rates.silver['21k'] = extractNumber(rows[5]?.cells[1]?.innerText) || rates.silver['21k'];
-            rates.silver['18k'] = extractNumber(rows[6]?.cells[1]?.innerText) || rates.silver['18k'];
-            rates.silver['traditional'] = extractNumber(rows[7]?.cells[1]?.innerText) || rates.silver['traditional'];
-            
-            updatePriceDisplay();
-            document.getElementById('lastUpdateTime').innerHTML = '<i class="fas fa-clock"></i> আপডেট: ' + new Date().toLocaleString('bn-BD');
-        }
-    }, 2500); 
+function updateRatesFromWidgetData() {
+    if (typeof GoldrPriceTable_goldData !== 'undefined' && GoldrPriceTable_goldData.length >= 4) {
+        rates.gold['22k'] = GoldrPriceTable_goldData[0].bg_raw;
+        rates.gold['21k'] = GoldrPriceTable_goldData[1].bg_raw;
+        rates.gold['18k'] = GoldrPriceTable_goldData[2].bg_raw;
+        rates.gold['traditional'] = GoldrPriceTable_goldData[3].bg_raw;
+    }
+    if (typeof GoldrPriceTable_silverData !== 'undefined' && GoldrPriceTable_silverData.length >= 4) {
+        rates.silver['22k'] = GoldrPriceTable_silverData[0].bg_raw;
+        rates.silver['21k'] = GoldrPriceTable_silverData[1].bg_raw;
+        rates.silver['18k'] = GoldrPriceTable_silverData[2].bg_raw;
+        rates.silver['traditional'] = GoldrPriceTable_silverData[3].bg_raw;
+    }
+    
+    let updateTime = new Date();
+    if (typeof GoldrPriceTable_usdRate !== 'undefined') {
+        document.getElementById('lastUpdateTime').innerHTML = '<i class="fas fa-clock"></i> আপডেট: ' + updateTime.toLocaleString('bn-BD');
+        document.getElementById('liveStatus').innerHTML = '<i class="fas fa-check-circle"></i> BAJUS লাইভ';
+    }
+    updatePriceDisplay();
 }
-
-function extractNumber(text) {
-    if (!text) return null;
-    const match = text.replace(/[^\d]/g, '');
-    return match ? parseInt(match) : null;
-}
-
-setInterval(fetchGoldRates, 3600000);
 
 window.setUnit = function(unit) {
     currentUnit = unit;
-    
     document.getElementById('unitBhori').classList.toggle('active', unit === 'bhori');
     document.getElementById('unitGram').classList.toggle('active', unit === 'gram');
-    
     document.getElementById('goldUnitLabel').innerText = unit === 'bhori' ? '(টাকা/ভরি)' : '(টাকা/গ্রাম)';
     document.getElementById('silverUnitLabel').innerText = unit === 'bhori' ? '(টাকা/ভরি)' : '(টাকা/গ্রাম)';
-    
     document.getElementById('inputUnitBadge').innerText = unit === 'bhori' ? 'আনাতে লিখুন' : 'গ্রামে লিখুন';
-    
     updatePriceDisplay();
 };
 
@@ -870,12 +418,10 @@ function updatePriceDisplay() {
     for (let i=0; i<4; i++) {
         let goldVal = rates.gold[goldTypes[i]];
         let silverVal = rates.silver[silverTypes[i]];
-        
         if (currentUnit === 'bhori') {
             goldVal = goldVal * BHORI;
             silverVal = silverVal * BHORI;
         }
-        
         document.getElementById(goldIds[i]).innerText = '৳' + Math.round(goldVal).toLocaleString('bn-BD');
         document.getElementById(silverIds[i]).innerText = '৳' + Math.round(silverVal).toLocaleString('bn-BD');
     }
@@ -906,8 +452,20 @@ window.applyManualRates = function() {
 };
 
 window.resetToLiveRates = function() {
-    fetchGoldRates();
-    document.getElementById('lastUpdateTime').innerHTML = '<i class="fas fa-clock"></i> GoldR লাইভ রেটে রিসেট হচ্ছে...';
+    updateRatesFromWidgetData();
+};
+
+window.forceRefresh = function() {
+    const script = document.querySelector('script[src*="price.js"]');
+    if (script) {
+        script.remove();
+        const newScript = document.createElement('script');
+        newScript.src = 'https://www.goldr.org/price.js?gttm&t=' + Date.now();
+        document.body.appendChild(newScript);
+        setTimeout(updateRatesFromWidgetData, 500);
+    } else {
+        location.reload();
+    }
 };
 
 window.togglePriceEditor = function() {
@@ -920,7 +478,6 @@ window.togglePriceEditor = function() {
 
 function calculateZakat() {
     function getValue(id) { return parseFloat(document.getElementById(id)?.value) || 0; }
-
     function convertToGram(value) {
         if (currentUnit === 'bhori') {
             return value * ANA_TO_GRAM;
@@ -928,61 +485,30 @@ function calculateZakat() {
             return value;
         }
     }
-
     const gold22 = convertToGram(getValue('gold22_in')) * rates.gold['22k'];
     const gold21 = convertToGram(getValue('gold21_in')) * rates.gold['21k'];
     const gold18 = convertToGram(getValue('gold18_in')) * rates.gold['18k'];
     const goldTrad = convertToGram(getValue('goldTrad_in')) * rates.gold['traditional'];
     const totalGold = gold22 + gold21 + gold18 + goldTrad;
-
     const silver22 = convertToGram(getValue('silver22_in')) * rates.silver['22k'];
     const silver21 = convertToGram(getValue('silver21_in')) * rates.silver['21k'];
     const silver18 = convertToGram(getValue('silver18_in')) * rates.silver['18k'];
     const silverTrad = convertToGram(getValue('silverTrad_in')) * rates.silver['traditional'];
     const totalSilver = silver22 + silver21 + silver18 + silverTrad;
-
-    const cash = getValue('cash');
-    const bank = getValue('bank');
-    const fdr = getValue('fdr');
-    const stocks = getValue('stocks');
-    const mf = getValue('mf');
-    const other = getValue('other');
-    const inventory = getValue('inventory');
-    const bizCash = getValue('businessCash');
-
-    const shortDebt = getValue('shortDebt');
-    const longDebt = getValue('longDebt');
-    const otherLiab = getValue('otherLiab');
+    const cash = getValue('cash'); const bank = getValue('bank'); const fdr = getValue('fdr');
+    const stocks = getValue('stocks'); const mf = getValue('mf'); const other = getValue('other');
+    const inventory = getValue('inventory'); const bizCash = getValue('businessCash');
+    const shortDebt = getValue('shortDebt'); const longDebt = getValue('longDebt'); const otherLiab = getValue('otherLiab');
     const totalLiab = shortDebt + longDebt + otherLiab;
-
     const totalAssets = totalGold + totalSilver + cash + bank + fdr + stocks + mf + other + inventory + bizCash;
     const netAssets = Math.max(0, totalAssets - totalLiab);
-
     const nisabGold = 87.48 * rates.gold['22k'];
     const nisabSilver = 612.36 * rates.silver['traditional'];
     const applicableNisab = Math.min(nisabGold, nisabSilver);
     const zakat = netAssets >= applicableNisab ? netAssets * 0.025 : 0;
-
     const resultDiv = document.getElementById('resultArea');
     resultDiv.style.display = 'block';
-    resultDiv.innerHTML = `
-        <h3 class="text-2xl font-bold mb-3">📊 যাকাত হিসাবের ফলাফল</h3>
-        <div class="grid gap-2">
-            <div class="flex justify-between"><span>মোট সম্পদ:</span> <strong>৳${totalAssets.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between"><span>মোট দায়:</span> <strong>৳${totalLiab.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between border-t pt-2 text-lg font-bold"><span>নেট যাকাতযোগ্য সম্পদ:</span> <strong>৳${netAssets.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between"><span>সোনার নিসাব (৮৭.৪৮ গ্রাম):</span> <strong>৳${nisabGold.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between"><span>রুপার নিসাব (৬১২.৩৬ গ্রাম):</span> <strong>৳${nisabSilver.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between bg-yellow-100 p-2 rounded"><span>প্রযোজ্য নিসাব (ছোটটি):</span> <strong>৳${applicableNisab.toFixed(2).toLocaleString('bn-BD')}</strong></div>
-            <div class="flex justify-between text-2xl font-extrabold text-green-800 border-t-4 border-green-500 mt-3 pt-3">
-                <span>প্রদেয় যাকাত (২.৫%):</span> <strong>৳${zakat.toFixed(2).toLocaleString('bn-BD')}</strong>
-            </div>
-            <p class="mt-3 text-lg ${netAssets >= applicableNisab ? 'text-green-700' : 'text-red-600'}">
-                ${netAssets >= applicableNisab ? '✅ আপনার যাকাত ফরজ হয়েছে।' : '❌ আপনি নিসাব সীমা অতিক্রম করেননি। যাকাত ফরজ নয়।'}
-            </p>
-            <p class="text-sm text-gray-600 mt-2">*আপনি ${currentUnit === 'bhori' ? 'আনা' : 'গ্রাম'} এককে সংখ্যা বসিয়েছেন</p>
-        </div>
-    `;
+    resultDiv.innerHTML = `<h3 class="text-2xl font-bold mb-3">📊 যাকাত হিসাবের ফলাফল</h3><div class="grid gap-2"><div class="flex justify-between"><span>মোট সম্পদ:</span> <strong>৳${totalAssets.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between"><span>মোট দায়:</span> <strong>৳${totalLiab.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between border-t pt-2 text-lg font-bold"><span>নেট যাকাতযোগ্য সম্পদ:</span> <strong>৳${netAssets.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between"><span>সোনার নিসাব:</span> <strong>৳${nisabGold.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between"><span>রুপার নিসাব:</span> <strong>৳${nisabSilver.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between bg-yellow-100 p-2 rounded"><span>প্রযোজ্য নিসাব:</span> <strong>৳${applicableNisab.toFixed(2).toLocaleString('bn-BD')}</strong></div><div class="flex justify-between text-2xl font-extrabold text-green-800 border-t-4 border-green-500 mt-3 pt-3"><span>প্রদেয় যাকাত (২.৫%):</span> <strong>৳${zakat.toFixed(2).toLocaleString('bn-BD')}</strong></div><p class="mt-3 text-lg ${netAssets >= applicableNisab ? 'text-green-700' : 'text-red-600'}">${netAssets >= applicableNisab ? '✅ আপনার যাকাত ফরজ হয়েছে।' : '❌ আপনি নিসাব সীমা অতিক্রম করেননি।'}</p><p class="text-sm text-gray-600 mt-2">*আপনি ${currentUnit === 'bhori' ? 'আনা' : 'গ্রাম'} এককে সংখ্যা বসিয়েছেন</p></div>`;
     resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
@@ -993,11 +519,17 @@ window.toggleFaq = function(btn) {
     icon.innerText = answer.classList.contains('open') ? '−' : '+';
 };
 
+setInterval(function() {
+    if (typeof GoldrPriceTable_goldData !== 'undefined') {
+        updateRatesFromWidgetData();
+    }
+}, 3600000);
+
 window.onload = function() {
-    updatePriceDisplay(); 
-    fetchGoldRates();    
+    setTimeout(updateRatesFromWidgetData, 1000);
+    setTimeout(updateRatesFromWidgetData, 3000);
+    updatePriceDisplay();
 };
 </script>
-
 </body>
 </html>
