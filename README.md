@@ -34,9 +34,14 @@
 
 
 zakat-calculator/
+
 │
 ├── index.html 
+
 ├── css/
+
 │ └── style.css 
+
 ├── js/
+
 │ └── script.js 
